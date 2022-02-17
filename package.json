@@ -63,7 +63,7 @@
 		"transform-runtime": "0.0.0",
 		"vanilla-lazyload": "latest",
 		"vinyl-ftp": "latest",
-		"webp-converter": "2.2.3",
+		"webp-converter": "^2.2.3",
 		"webpack": "latest",
 		"webpack-cli": "latest",
 		"webpack-dev-server": "latest",
