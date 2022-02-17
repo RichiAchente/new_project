@@ -1,25 +1,45 @@
 //====================================================================================================
+
 //====================================================================================================
 .page {
+  margin-top: 122.44px;
   &__columns {
   }
 }
 .column {
   display: flex;
   &__page1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 155px;
+    flex: 0 0 50%;
   }
 
   &__page2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 .block {
   &__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+    margin-bottom: 14px;
   }
 
   &__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f7cb2;
+    max-width: 455px;
+    min-width: 455px;
   }
-}
-
-.page__container {
-  background-color: #fff;
 }
