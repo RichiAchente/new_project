@@ -59,3 +59,67 @@ body::after {
 		visibility: visible;
 	}
 }
+.information {
+	display: flex;
+	&__image {
+		display: flex;
+		flex: 0 0 25%;
+	}
+
+	&__block {
+	}
+}
+.column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__block1 {
+	}
+
+	&__title {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 36px;
+		line-height: 48px;
+		color: #091133;
+	}
+
+	&__text {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 26px;
+		color: #6f7cb2;
+	}
+
+	&__block2 {
+	}
+}
+.benefits {
+	&__icon {
+	}
+
+	&__title {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		color: #091133;
+	}
+
+	&__text {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 18px;
+		color: #5d6970;
+	}
+}
+.bnifits {
+	&__first-block {
+	}
+}

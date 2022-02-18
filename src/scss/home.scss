@@ -334,6 +334,7 @@
     color: #6f7cb2;
     max-width: 455px;
     min-width: 455px;
+    margin-bottom: 36px;
   }
   @media (max-width: 1024px) {
     &__title {
@@ -358,6 +359,7 @@
       font-size: 14px;
       max-width: 420px;
       min-width: 420px;
+      margin-bottom: 26px;
     }
   }
   @media (max-width: $tablet) {
@@ -366,6 +368,7 @@
       max-width: 330px;
       min-width: 330px;
       line-height: 24px;
+      margin-bottom: 24px;
     }
   }
   @media (max-width: $mobile) {
@@ -374,6 +377,26 @@
       max-width: 300px;
       min-width: 300px;
       line-height: 24px;
+      margin-bottom: 20px;
     }
+  }
+  &__button {
+    padding-top: 40px;
+  }
+  .link {
+    display: inline-block;
+    background: #111b47;
+    border-radius: 2px;
+    height: 32px;
+    width: 150px;
+  }
+  .text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
   }
 }
