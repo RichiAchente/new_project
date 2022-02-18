@@ -53,27 +53,36 @@ body::after {
 	background-color: #eee;
 	padding: 20px;
 	width: 100%;
-	max-width: 900px;
+	max-width: 1440px;
 	border-radius: 20px;
 	.lock & {
 		visibility: visible;
 	}
 }
+.popup__close {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+/*-----------------------------------------------------*/
 .information {
 	display: flex;
 	&__image {
-		display: flex;
-		flex: 0 0 25%;
+		height: 824px;
+		width: 515px;
 	}
 
-	&__block {
+	&__blocks {
 	}
 }
-.column {
+.columnu {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	&__block1 {
+	align-items: flex-start;
+	padding-left: 125px;
+	margin-top: 140px;
+	&__blocks1 {
 	}
 
 	&__title {
@@ -83,6 +92,7 @@ body::after {
 		font-size: 36px;
 		line-height: 48px;
 		color: #091133;
+		margin-bottom: 14px;
 	}
 
 	&__text {
@@ -92,13 +102,22 @@ body::after {
 		font-size: 16px;
 		line-height: 26px;
 		color: #6f7cb2;
+		min-width: 520px;
+		max-width: 520px;
 	}
 
-	&__block2 {
+	&__blocks2 {
 	}
 }
 .benefits {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 25px;
+	margin-top: 58px;
+	/*margin-left: -200px;*/
 	&__icon {
+		margin-bottom: 14px;
 	}
 
 	&__title {
@@ -108,6 +127,7 @@ body::after {
 		font-size: 16px;
 		line-height: 26px;
 		color: #091133;
+		margin-bottom: 4px;
 	}
 
 	&__text {
@@ -117,9 +137,53 @@ body::after {
 		font-size: 12px;
 		line-height: 18px;
 		color: #5d6970;
+		min-width: 325px;
+		max-width: 325px;
 	}
 }
-.bnifits {
+.bnifits2 {
 	&__first-block {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+	}
+}
+.benefits2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-right: 25px;
+	margin-top: 58px;
+	/*margin-left: -200px;*/
+	&__icon {
+		margin-bottom: 14px;
+	}
+
+	&__title {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		color: #091133;
+		margin-bottom: 4px;
+	}
+
+	&__text {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 18px;
+		color: #5d6970;
+		min-width: 325px;
+		max-width: 325px;
+	}
+}
+.bnifits2 {
+	&__first-block {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
 	}
 }
