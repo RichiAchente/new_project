@@ -129,5 +129,251 @@
 }
 
 /*---------------------------------------------------------------*/
+.block2 {
+  margin-top: 122.44px;
+  margin-bottom: 130.71px;
+  &__container {
+  }
+
+  &__columns {
+  }
+}
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  &__block21 {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 50%;
+    margin-bottom: 50px;
+  }
+
+  &__block22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: $mobile) {
+  .column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.image {
+  &__second {
+  }
+
+  &__img {
+    width: 480px;
+    height: 317px;
+  }
+  @media (max-width: 1024px) {
+    &__img {
+      width: 370px;
+      height: 270px;
+    }
+  }
+  @media (max-width: $tablet) {
+    &__img {
+      width: 270px;
+      height: 170px;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    &__img {
+      width: 250px;
+      height: 150px;
+    }
+  }
+}
+.blocki2 {
+  &__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f7cb2;
+    max-width: 455px;
+    min-width: 455px;
+  }
+  @media (max-width: 1024px) {
+    &__title {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: $tablet) {
+    &__title {
+      font-size: 24px;
+      line-height: 38px;
+    }
+  }
+  @media (max-width: $mobile) {
+    &__title {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+  /*---------------------------------------------------------------*/
+  @media (max-width: 1024px) {
+    &__text {
+      font-size: 14px;
+      max-width: 420px;
+      min-width: 420px;
+    }
+  }
+  @media (max-width: $tablet) {
+    &__text {
+      font-size: 14px;
+      max-width: 330px;
+      min-width: 330px;
+      line-height: 24px;
+    }
+  }
+  @media (max-width: $mobile) {
+    &__text {
+      font-size: 14px;
+      max-width: 300px;
+      min-width: 300px;
+      line-height: 24px;
+    }
+  }
+}
 
 /*---------------------------------------------------------------*/
+.block3 {
+  margin-top: 122.44px;
+  margin-bottom: 130.71px;
+  &__container {
+  }
+
+  &__columns {
+  }
+}
+.column {
+  display: flex;
+  flex-wrap: wrap;
+  &__block31 {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 50%;
+    margin-bottom: 50px;
+  }
+
+  &__block32 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 50%;
+  }
+}
+@media (max-width: $mobile) {
+  .column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.image {
+  &__second {
+  }
+
+  &__img {
+    width: 480px;
+    height: 317px;
+  }
+  @media (max-width: 1024px) {
+    &__img {
+      width: 370px;
+      height: 270px;
+    }
+  }
+  @media (max-width: $tablet) {
+    &__img {
+      width: 270px;
+      height: 170px;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    &__img {
+      width: 250px;
+      height: 150px;
+    }
+  }
+}
+.blocki3 {
+  &__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6f7cb2;
+    max-width: 455px;
+    min-width: 455px;
+  }
+  @media (max-width: 1024px) {
+    &__title {
+      font-size: 30px;
+    }
+  }
+  @media (max-width: $tablet) {
+    &__title {
+      font-size: 24px;
+      line-height: 38px;
+    }
+  }
+  @media (max-width: $mobile) {
+    &__title {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+  /*---------------------------------------------------------------*/
+  @media (max-width: 1024px) {
+    &__text {
+      font-size: 14px;
+      max-width: 420px;
+      min-width: 420px;
+    }
+  }
+  @media (max-width: $tablet) {
+    &__text {
+      font-size: 14px;
+      max-width: 330px;
+      min-width: 330px;
+      line-height: 24px;
+    }
+  }
+  @media (max-width: $mobile) {
+    &__text {
+      font-size: 14px;
+      max-width: 300px;
+      min-width: 300px;
+      line-height: 24px;
+    }
+  }
+}
