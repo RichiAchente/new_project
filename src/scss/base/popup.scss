@@ -68,11 +68,16 @@ body::after {
 /*-----------------------------------------------------*/
 .information {
 	display: flex;
+	margin-top: 20px;
 	&__image {
-		height: 824px;
-		width: 515px;
+		min-height: 100%;
+		max-width: 100%;
 	}
-
+	@media (max-width: $tablet) {
+		&__image {
+			display: none;
+		}
+	}
 	&__blocks {
 	}
 }
@@ -81,7 +86,7 @@ body::after {
 	flex-direction: column;
 	align-items: flex-start;
 	flex-wrap: wrap;
-	padding-left: 125px;
+	/*padding-left: 125px;*/
 	margin-top: 140px;
 	&__blocks1 {
 	}
@@ -103,19 +108,46 @@ body::after {
 		font-size: 16px;
 		line-height: 26px;
 		color: #6f7cb2;
-		min-width: 520px;
+		/*min-width: 520px;*/
 		max-width: 520px;
 	}
 
 	&__blocks2 {
 	}
 }
+@media (max-width: 1440px) {
+	.columnu {
+		padding-left: 125px;
+	}
+}
+@media (max-width: 1024px) {
+	.columnu {
+		padding-left: 80px;
+	}
+}
+@media (max-width: $tablet) {
+	.columnu {
+		padding-left: 80px;
+	}
+}
+@media (max-width: $mobile) {
+	.columnu {
+		padding-left: 40px;
+		margin-top: 20px;
+	}
+}
+@media (max-width: $mobileSmall) {
+	.columnu {
+		padding-left: 30px;
+		margin-top: 20px;
+	}
+}
 .benefits {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-right: 25px;
+	justify-content: flex-end;
+	align-items: end;
+	/*flex-wrap: wrap;*/
 	margin-top: 58px;
 	/*margin-left: -200px;*/
 	&__icon {
@@ -123,7 +155,7 @@ body::after {
 		margin-bottom: 14px;
 	}
 
-	&__title {
+	&__title1 {
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: 500;
@@ -133,15 +165,41 @@ body::after {
 		margin-bottom: 4px;
 	}
 
-	&__text {
+	&__text1 {
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 12px;
 		line-height: 18px;
 		color: #5d6970;
-		min-width: 325px;
+		/*min-width: 325px;*/
 		max-width: 325px;
+		padding-right: 20px;
+	}
+	&__title2 {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		color: #091133;
+		margin-bottom: 4px;
+	}
+
+	&__text2 {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 18px;
+		color: #5d6970;
+		/*min-width: 325px;*/
+		max-width: 325px;
+	}
+}
+@media (max-width: 375px) {
+	.benefits {
+		flex-wrap: wrap;
 	}
 }
 .bnifits2 {
@@ -156,8 +214,7 @@ body::after {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-right: 25px;
+	/*flex-wrap: wrap;*/
 	margin-top: 58px;
 	/*margin-left: -200px;*/
 	&__icon {
@@ -165,7 +222,7 @@ body::after {
 		margin-bottom: 14px;
 	}
 
-	&__title {
+	&__title3 {
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: 500;
@@ -175,15 +232,53 @@ body::after {
 		margin-bottom: 4px;
 	}
 
-	&__text {
+	&__text3 {
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: normal;
 		font-size: 12px;
 		line-height: 18px;
 		color: #5d6970;
-		min-width: 325px;
+		/*min-width: 325px;*/
 		max-width: 325px;
+		padding-right: 20px;
+	}
+	&__title4 {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 26px;
+		color: #091133;
+		margin-bottom: 4px;
+	}
+
+	&__text4 {
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 18px;
+		color: #5d6970;
+		/*min-width: 325px;*/
+		max-width: 325px;
+		padding-right: 20px;
+	}
+	@media (max-width: 1024px) {
+		&__text {
+			padding-right: 30px;
+		}
+	}
+}
+@media (max-width: $mobile) {
+	.benefits2 {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 375px) {
+	.benefits2 {
+		flex-wrap: wrap;
+		margin-top: 10px;
 	}
 }
 .bnifits2 {

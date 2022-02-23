@@ -1,3 +1,99 @@
 //====================================================================================================
+@media (max-width: 1024px) {
+  .footer {
+    margin-top: -65px;
+  }
+}
+.footer {
+  background-color: #e7ecff;
+  z-index: 20;
+  &__container {
+    max-width: 1110px;
+  }
 
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 66px 0px 45px 0px;
+  }
+
+  &__line {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 32px 0px;
+  }
+}
+.top {
+  &__company {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #939ea4;
+  }
+
+  &__title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 38px;
+    color: #37447e;
+  }
+
+  &__button {
+    background: #111b47;
+    border-radius: 2px;
+    height: 26px;
+    width: 109px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+}
+.bottom {
+  &__left {
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #929ecc;
+    padding-right: 60px;
+  }
+
+  &__right {
+  }
+
+  &__icon-list {
+    display: flex;
+  }
+
+  &__icons {
+    padding-right: 30px;
+  }
+
+  &__icons:nth-child(5) {
+    padding-right: 0px;
+  }
+}
 //====================================================================================================
