@@ -100,6 +100,20 @@
     &__title {
       font-size: 22px;
       line-height: 26px;
+      text-align: center;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    &__title {
+      text-align: center;
+    }
+  }
+  @media (max-width: 320px) {
+    &__title {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
     }
   }
   /*---------------------------------------------------------------*/
@@ -124,6 +138,12 @@
       max-width: 300px;
       min-width: 300px;
       line-height: 24px;
+      text-align: center;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    &__text {
+      text-align: center;
     }
   }
 }
@@ -225,6 +245,20 @@
     &__title {
       font-size: 22px;
       line-height: 26px;
+      text-align: center;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    &__title {
+      text-align: center;
+    }
+  }
+  @media (max-width: 320px) {
+    &__title {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
     }
   }
   /*---------------------------------------------------------------*/
@@ -249,6 +283,12 @@
       max-width: 300px;
       min-width: 300px;
       line-height: 24px;
+      text-align: center;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    &__text {
+      text-align: center;
     }
   }
 }
@@ -351,6 +391,20 @@
     &__title {
       font-size: 22px;
       line-height: 26px;
+      text-align: center;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    &__title {
+      text-align: center;
+    }
+  }
+  @media (max-width: 320px) {
+    &__title {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
     }
   }
   /*---------------------------------------------------------------*/
@@ -378,6 +432,12 @@
       min-width: 300px;
       line-height: 24px;
       margin-bottom: 20px;
+      text-align: center;
+    }
+  }
+  @media (min-width: $mobileSmall) {
+    &__text {
+      text-align: center;
     }
   }
   &__button {
@@ -389,6 +449,21 @@
     border-radius: 2px;
     height: 32px;
     width: 150px;
+  }
+  @media (max-width: $mobile) {
+    .link {
+      margin-left: 70px;
+    }
+  }
+  @media (max-width: $mobileSmall) {
+    .link {
+      margin-left: 70px;
+    }
+  }
+  @media (max-width: 320px) {
+    .link {
+      margin-left: 70px;
+    }
   }
   .text {
     font-family: Roboto;

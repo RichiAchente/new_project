@@ -27,8 +27,35 @@
     justify-content: space-between;
     padding: 20px 0px 32px 0px;
   }
+  @media (max-width: $mobileSmall) {
+    &__line {
+      width: 20px;
+    }
+    &__top {
+      display: flex;
+      flex-direction: column;
+      padding: 46px 0px 25px 0px;
+    }
+    &__bottom {
+      padding: 26px 0px 24px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 320px) {
+    &__bottom {
+      padding: 26px 0px 24px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }
 .top {
+  display: flex;
+  align-items: center;
   &__company {
     font-family: Roboto;
     font-style: normal;
@@ -62,6 +89,17 @@
     align-items: center;
     color: #ffffff;
   }
+  @media (max-width: $mobileSmall) {
+    &__company {
+      margin-bottom: 20px;
+    }
+    &__title {
+      margin-bottom: 30px;
+    }
+    &__button {
+      margin-bottom: 20px;
+    }
+  }
 }
 .bottom {
   &__left {
@@ -94,6 +132,32 @@
 
   &__icons:nth-child(5) {
     padding-right: 0px;
+  }
+  @media (max-width: $mobileSmall) {
+    &__list {
+      margin-left: 25px;
+    }
+    &__item {
+      margin-bottom: 20px;
+      padding-right: 20px;
+    }
+    &__icons {
+      padding-right: 15px;
+      padding-right: 20px;
+    }
+  }
+  @media (max-width: 320px) {
+    &__list {
+      margin-left: 25px;
+    }
+    &__item {
+      margin-bottom: 20px;
+      padding-right: 20px;
+    }
+    &__icons {
+      padding-right: 15px;
+      padding-right: 20px;
+    }
   }
 }
 //====================================================================================================
